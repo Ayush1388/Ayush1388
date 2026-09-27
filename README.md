@@ -4,7 +4,7 @@
 
 **Backend engineer in the making: Go, PostgreSQL, and systems that don't fall over under load.**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-pandey-662a4037b/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ayushji2543@gmail.com)
 
 </div>
@@ -74,9 +74,6 @@ Generates Ethereum and Solana accounts from a single BIP-39 seed phrase using st
 ---
 
 <div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ayush1388&show_icons=true&hide_border=true&count_private=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush1388&layout=compact&hide_border=true&langs_count=6" alt="Top languages" />
 
 *Open to internships and backend roles. Feel free to reach out!*
 
