@@ -12,7 +12,7 @@
 I'm a CS student at **SRM Institute of Science and Technology** who likes the unglamorous parts of software: queues, backpressure, database migrations, and retries that actually work. Most of what I build now is in **Go**, and I also do ML research on fake-news detection in **Python / PyTorch**.
 
 - 🔨 **Building now:** [`auctionEngine`](https://github.com/Ayush1388/auctionEngine), a real-time auction backend in Go with a transactional outbox, JWT auth, and SQL migrations
-- 🔬 **Researching:** graph-based fake-news detection. My stacked ensemble reaches **~92% accuracy on Twitter15** ([`fakeNewsDetection`](https://github.com/Ayush1388/fakeNewsDetection))
+- 🔬 **Researching:** graph-based fake-news detection. My stacked ensemble reaches **~92% accuracy on Twitter15/16** ([`fakeNewsDetection`](https://github.com/Ayush1388/fakeNewsDetection))
 - 📚 **Learning:** distributed systems, PostgreSQL internals, DSA in C++
 - 💬 **Ask me about:** Go concurrency patterns, Postgres partitioning, HD wallets
 - 🎯 **Looking for:** backend / SDE internships and new-grad roles
@@ -41,8 +41,8 @@ Backend for live auctions with wallets and bid reservations.
 ### 🔬 [Fake News Detection (TEG-FND / GE-Stack)](https://github.com/Ayush1388/fakeNewsDetection)
 Research project on rumour detection using both *what* a tweet says and *how it spreads*.
 - Graph-enhanced stacked ensemble: text view + spreader-graph view + cascade-timing view → meta-learner
-- **92.05% ± 0.87** accuracy on Twitter15 and **90.57% ± 1.10** on Twitter16 (5 seeds); also evaluated on a harder story-disjoint split
-- Ablations show the propagation-graph features add 4–10 points over text alone
+- **91.8% ± 1.6** accuracy on Twitter15 and **92.4% ± 2.0** on Twitter16 (4-class, 10 seeds), about **20 points above a fine-tuned DeBERTa-v3** on identical test sets
+- Propagation features add 5–6 points on random splits and 11–17 points on harder story-disjoint splits
 - Also includes a DeBERTa-based temporal evidence-graph model and LIME explainability
 
 `Python` `PyTorch` `scikit-learn` `Transformers`
@@ -55,7 +55,7 @@ Generates Ethereum and Solana accounts from a single BIP-39 seed phrase using st
 <details>
 <summary><b>More projects</b></summary>
 
-- [**snippetbox**](https://github.com/Ayush1388/snippetbox): server-rendered Go web app with MySQL, session management, middleware chains, and HTTPS/TLS
+- [**snippetbox**](https://github.com/Ayush1388/snippetbox): server-rendered Go web app (built following *Let's Go*) with MySQL sessions, middleware chains, and HTTPS/TLS
 - [**Food Delivery**](https://github.com/Ayush1388/Food_Delivery) · [Live demo](https://food-delivery-hazel-alpha.vercel.app): MERN food-ordering app with a customer site and admin panel
 - [**Decentralized Freelancing Platform**](https://github.com/Ayush1388/decentralizedFrellancingPlatform): MERN + Google OAuth marketplace connecting clients and developers
 
@@ -74,6 +74,8 @@ Generates Ethereum and Solana accounts from a single BIP-39 seed phrase using st
 ---
 
 <div align="center">
+
+<img src="https://streak-stats.demolab.com/?user=Ayush1388&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
 
 *Open to internships and backend roles. Feel free to reach out!*
 
